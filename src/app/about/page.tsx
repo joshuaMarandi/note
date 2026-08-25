@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     'tech company Tanzania',
     'noteTech story',
   ],
+  alternates: {
+    canonical: '/about',
+  },
   openGraph: {
     title: 'About Us — noteTech',
     description: "Tanzania's software company building Africa's digital future.",

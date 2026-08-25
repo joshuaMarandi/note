@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     'software projects East Africa',
     'website portfolio Tanzania',
   ],
+  alternates: {
+    canonical: '/projects',
+  },
   openGraph: {
     title: 'Projects — noteTech',
     description:

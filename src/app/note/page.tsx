@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     'CRM East Africa',
     'invoicing software Tanzania',
   ],
+  alternates: {
+    canonical: '/note',
+  },
   openGraph: {
     title: 'NOTE Sales System — noteTech',
     description:

@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'noteTech', url: 'https://www.note.co.tz' }],
   creator: 'noteTech',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_TZ',
@@ -39,12 +42,14 @@ export const metadata: Metadata = {
     title: "noteTech — Powering Africa's Digital Future",
     description:
       "Tanzania's leading software company: AI services, web apps, websites, and the NOTE sales management system.",
+    images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "noteTech — Powering Africa's Digital Future",
     description: "Tanzania's leading software company.",
     creator: '@notetechtz',
+    images: ['/notelogo.png'],
   },
   icons: {
     icon: '/favicon.ico',
@@ -55,12 +60,41 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  verification: {
+    // Paste the content value from Google Search Console > Settings > Ownership verification > HTML tag
+    // google: 'PASTE_YOUR_VERIFICATION_CODE_HERE',
+  },
+}
+
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'noteTech',
+  url: 'https://www.note.co.tz',
+  logo: 'https://www.note.co.tz/notelogo.png',
+  description:
+    "noteTech is Tanzania's leading software company — offering AI services, web application development, professional websites, and the NOTE sales management system.",
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'TZ',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: '+255748415599',
+    contactType: 'customer service',
+    email: 'hello@note.co.tz',
+  },
+  sameAs: [],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={figtree.variable}>
       <body className="font-sans antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <Navbar />
         <main id="main-content">{children}</main>
         <Footer />
