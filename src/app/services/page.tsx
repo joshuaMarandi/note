@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     description:
       'AI services, web apps, websites, and the NOTE system — built for East African businesses.',
     url: 'https://www.note.co.tz/services',
+    siteName: 'noteTech',
+    images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
   },
 }
 

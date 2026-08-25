@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     title: 'Contact — noteTech',
     description: "Get in touch with Tanzania's leading software company.",
     url: 'https://www.note.co.tz/contact',
+    siteName: 'noteTech',
+    images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
   },
 }
 

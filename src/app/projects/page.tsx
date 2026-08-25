@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     description:
       'Portfolio of websites, web apps, and digital systems built for East African businesses.',
     url: 'https://www.note.co.tz/projects',
+    siteName: 'noteTech',
+    images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
   },
 }
 

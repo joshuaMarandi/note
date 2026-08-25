@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     description:
       "Tanzania's leading software company: AI services, web apps, websites, and the NOTE sales management system.",
     url: 'https://www.note.co.tz',
+    siteName: 'noteTech',
+    images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
   },
 }
 

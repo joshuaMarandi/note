@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     description:
       'All-in-one sales management: CRM, inventory, invoicing, and analytics for East African businesses.',
     url: 'https://www.note.co.tz/note',
+    siteName: 'noteTech',
+    images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
   },
 }
 
