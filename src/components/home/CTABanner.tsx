@@ -30,26 +30,27 @@ export default function CTABanner() {
           transition={{ duration: 0.65 }}
         >
           <span className="inline-block text-brand-amber font-mono text-sm uppercase tracking-widest mb-4">
-            Ready to Start?
+            A bigger opportunity starts here
           </span>
 
           <h2
             id="cta-heading"
             className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-white leading-tight mb-5"
           >
-            Ready to build your{' '}
+            Help us bring digital growth to{' '}
             <br className="hidden md:block" />
-            <span className="text-brand-amber">digital future?</span>
+            <span className="text-brand-amber">more African businesses.</span>
           </h2>
 
           <p className="text-slate-400 text-lg mb-12 max-w-xl mx-auto leading-relaxed">
-            Whether you need a website, a custom app, AI automation, or the NOTE
-            system — let&apos;s talk about how noteTech can help your business grow.
+            We are building an accessible path for SMEs to adopt websites, CRM, ERP,
+            and everyday AI. If you believe in practical technology for African businesses,
+            let&apos;s talk about supporting and scaling this mission.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button href="/contact" variant="primary" size="lg">
-              Talk to Us <ArrowRight className="w-5 h-5" />
+              Discuss the Opportunity <ArrowRight className="w-5 h-5" />
             </Button>
             <a
               href="https://wa.me/255748415599?text=Hello%20noteTech!%20I%27d%20like%20to%20discuss%20a%20project."

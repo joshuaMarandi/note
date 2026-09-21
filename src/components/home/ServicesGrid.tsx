@@ -42,9 +42,9 @@ export default function ServicesGrid() {
     <section className="py-24 bg-white" id="services">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          eyebrow="What We Do"
-          title="Services Built for Growth"
-          subtitle="From AI automation to beautiful websites — we build the digital infrastructure that drives African businesses forward."
+          eyebrow="Our Mission"
+          title="Digital tools for ambitious SMEs"
+          subtitle="We help Tanzania's small and medium-sized businesses build a stronger digital foundation, work smarter with AI, and grow with confidence."
         />
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

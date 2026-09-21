@@ -68,6 +68,15 @@ export default function HeroSection() {
           </div>
         </h1>
 
+        <motion.span
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.85 }}
+          className="block -mt-2 mb-5 text-sm sm:text-base font-mono font-medium uppercase tracking-[0.28em] text-brand-green"
+        >
+          starting With Tanzania
+        </motion.span>
+
         {/* Sub-headline */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -75,9 +84,8 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.85 }}
           className="mt-4 text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
         >
-          Building world-class AI tools, web applications, and the{' '}
-          <span className="text-white font-semibold">NOTE Sales System</span> —
-          proudly from Tanzania for the world.
+          Helping small and medium-sized businesses digitize with websites, CRM,
+          ERP, and practical AI tools — starting With Tanzania and scaling across Africa.
         </motion.p>
 
         {/* CTAs */}
@@ -88,7 +96,7 @@ export default function HeroSection() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button href="/projects" variant="primary" size="lg">
-            See Our Work <ArrowRight className="w-5 h-5" />
+            Explore the Vision <ArrowRight className="w-5 h-5" />
           </Button>
           <Button href="/contact" variant="outline" size="lg">
             Contact Us
@@ -103,9 +111,9 @@ export default function HeroSection() {
           className="mt-20 inline-flex items-center gap-0 bg-white/10 border border-white/20 backdrop-blur-sm rounded-2xl overflow-hidden"
         >
           {[
-            { value: '49+', label: 'Clients Served', color: 'text-white' },
+            { value: '29+', label: 'Clients Served', color: 'text-white' },
             { value: '100%', label: 'Satisfaction', color: 'text-brand-amber' },
-            { value: '4+', label: 'Years Active', color: 'text-brand-green' },
+            { value: '2', label: 'Years Active', color: 'text-brand-green' },
           ].map((stat, i) => (
             <div
               key={stat.label}

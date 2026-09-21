@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import AnimatedCounter from '@/components/shared/AnimatedCounter'
 
 const stats = [
-  { label: 'Clients Served', value: 49, suffix: '+', emoji: '🤝' },
-  { label: 'Projects Delivered', value: 80, suffix: '+', emoji: '🚀' },
-  { label: 'Years Active', value: 4, suffix: '+', emoji: '📅' },
+  { label: 'Clients Served', value: 29, suffix: '+', emoji: '🤝' },
+  { label: 'Projects Delivered', value: 42, suffix: '+', emoji: '🚀' },
+  { label: 'Years Active', value: 2, suffix: '+', emoji: '📅' },
   { label: 'Technologies Used', value: 20, suffix: '+', emoji: '⚡' },
 ]
 

@@ -59,9 +59,9 @@ const team = [
 const milestones = [
   { year: '2020', event: 'noteTech founded in Dar es Salaam, Tanzania' },
   { year: '2021', event: 'First 10 client websites launched; NOTE system prototype built' },
-  { year: '2022', event: 'Expanded to web application development; 30+ clients served' },
+  { year: '2022', event: 'Expanded to web application development; 29+ clients served' },
   { year: '2023', event: 'Launched NOTE v2.0 with full CRM and analytics suite' },
-  { year: '2024', event: 'Added AI services; grew to 49+ active clients across East Africa' },
+  { year: '2024', event: 'Added AI services; grew to 29+ active clients across East Africa' },
 ]
 
 export default function AboutPage() {
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Today, noteTech offers a full range of digital services — from AI-powered
-                  automation to custom web applications — serving 49+ clients across East Africa
+                  automation to custom web applications — serving 29+ clients across East Africa
                   and growing.
                 </p>
               </div>
@@ -268,12 +268,12 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-8 text-center">
           <div className="flex items-center gap-3 text-slate-300">
             <Award className="w-6 h-6 text-brand-amber" aria-hidden="true" />
-            <span className="font-semibold">49+ Satisfied Clients</span>
+            <span className="font-semibold">29+ Satisfied Clients</span>
           </div>
           <div className="w-px h-6 bg-slate-700 hidden sm:block" />
           <div className="flex items-center gap-3 text-slate-300">
             <Award className="w-6 h-6 text-brand-amber" aria-hidden="true" />
-            <span className="font-semibold">4+ Years of Excellence</span>
+            <span className="font-semibold">2+ Years of Excellence</span>
           </div>
           <div className="w-px h-6 bg-slate-700 hidden sm:block" />
           <div className="flex items-center gap-3 text-slate-300">

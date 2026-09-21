@@ -10,18 +10,20 @@ import CTABanner from '@/components/home/CTABanner'
 export const metadata: Metadata = {
   title: "noteTech — Powering Africa's Digital Future",
   description:
-    "Tanzania's leading software company. AI services, custom web applications, professional websites, and the NOTE sales management system.",
+    "starting With Tanzania, noteTech helps SMEs digitalize with websites, CRM, ERP, and practical AI tools for everyday work.",
   keywords: [
     'software company Tanzania',
     'web development Tanzania',
     'AI services Tanzania',
     'NOTE sales system',
+    'SME digitalization Tanzania',
+    'AI for African businesses',
     'noteTech',
   ],
   openGraph: {
     title: "noteTech — Powering Africa's Digital Future",
     description:
-      "Tanzania's leading software company: AI services, web apps, websites, and the NOTE sales management system.",
+      "starting With Tanzania, noteTech helps SMEs digitalize with websites, CRM, ERP, and practical AI tools for everyday work.",
     url: 'https://www.note.co.tz',
     siteName: 'noteTech',
     images: [{ url: '/notelogo.png', width: 800, height: 800, alt: 'noteTech logo' }],
